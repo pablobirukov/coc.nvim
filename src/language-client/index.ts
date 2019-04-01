@@ -150,19 +150,6 @@ export class LanguageClient extends BaseLanguageClient {
   private _isDetached: boolean | undefined
 
   public constructor(
-    name: string,
-    serverOptions: ServerOptions,
-    clientOptions: LanguageClientOptions,
-    forceDebug?: boolean
-  )
-  public constructor(
-    id: string,
-    name: string,
-    serverOptions: ServerOptions,
-    clientOptions: LanguageClientOptions,
-    forceDebug?: boolean
-  )
-  public constructor(
     arg1: string,
     arg2: ServerOptions | string,
     arg3: LanguageClientOptions | ServerOptions,
